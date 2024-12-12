@@ -66,7 +66,11 @@ const COLS = 10;
 
 let canvas = document.querySelector("#canvas");
 let scoreboard = document.querySelector("h2");
-let btn = document.querySelector("button");
+let btn = document.querySelector("#start");
+let left = document.getElementById("left");
+let right = document.getElementById("right");
+let down = document.getElementById("down");
+let rotates = document.getElementById("rotate");
 // let pause = document.getElementById("pause");
 
 btn.addEventListener('click' ,() => {
@@ -266,6 +270,11 @@ document.addEventListener('keydown',(e) => {
     }
 
 })
+
+left.addEventListener('click',moveLeft);
+right.addEventListener('click',moveRight);
+down.addEventListener('click',moveDown);
+rotates.addEventListener('click',rotate);
 
 });
 

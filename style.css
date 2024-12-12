@@ -18,3 +18,21 @@ canvas{
     width: 300px;
     background-color: #fff;
 }
+.arrows{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow , #start{
+    width: 30px;
+    margin: 2px;
+    padding: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+}
+#start{
+    width: 70px;
+}
