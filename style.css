@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c800ff;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    height: 600px;
+    width: 300px;
+    background-color: #fff;
+}
